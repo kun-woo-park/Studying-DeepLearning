@@ -8,7 +8,7 @@
 img
 
 ## 2.Pytorch, the python-based scientific computing package
-Pytorch는 python환경을 기반으로 제공되는 Deep learning research platform이다. Pytorch는 Deep learning에 필수적인 함수들 말고도 Deep learning에 도움이 되는 다양한 모듈들을 지원한다. 가장 대표적으로 Pytorch는 Autograd를 지원하는데, 이는 Tensor
+Pytorch는 python환경을 기반으로 제공되는 Deep learning research platform이다. Pytorch는 Deep learning에 필수적인 함수들 말고도 Deep learning에 도움이 되는 다양한 모듈들을 지원한다. 가장 대표적으로 Pytorch는 Autograd를 지원하는데, 이는 Tensor의 자동미분(ex. Backpropagation)
 
 ## 3.Regression and Classification
 
