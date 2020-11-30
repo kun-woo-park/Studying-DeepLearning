@@ -17,6 +17,16 @@ https://pytorch.org/docs/stable/optim.html
 https://pytorch.org/docs/stable/nn.html
 
 ## 3.Regression and Classification
+일반적인 deeplearning의 학습 방법은 loss function을 기반으로, input feature에 대한 predict value와 true label의 차이만큼을 gradient descent 방법을 동해 weight를 업데이트 하는 방식이다. 이때 이런 방식으로 update 되는 weight들은 특정 함수를 모방하게 되고, 매 iteration마다 이에 근접하게 되는데 이를 regression이라고 한다. Classification의 경우엔, 수렴의 대상이 되는 함수가 특정 class에 대한 가능성(likelihood)의 함수로써, regression을 통해 도출된 함수에 softmax와 같은 active function을 거치면서 특정 class를 지칭할 수 있도록 학습된다.
 
+### CIFAR 10
+img
+
+### Softmax
+img
 
 ## 4.Advanced CNN
+Computer vision 영역의 deeplearning에서 가장 대표적으로 쓰이는 네트워크 구조는 CNN이다. 이러한 CNN구조의 성능은 깊이가 깊어질수록 지속적으로 높아져왔다. 그러나 단순히 너무 깊은 네트워크를 설계할경우 쓸모 없는 값에도 과하게 overfitted되거나, gradient vanishing/exploding의 문제가 발생하여 성능이 더 높아지지 않았다. 이러한 문제점을 해결한 아이디어가 바로 ResNet구조이다. ResNet구조는 입력되는 값을 맨 마지막단에 FC(Fooly Connected) layer로 합쳐주면서, 네트워크가 residual을 학습하도록 만들었고 이를 통해 매우 높은 성능향상을 가져왔다.
+
+### ResNet
+img
