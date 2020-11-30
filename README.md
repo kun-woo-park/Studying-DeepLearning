@@ -8,12 +8,15 @@
 img
 
 ## 2.Pytorch, the python-based scientific computing package
-Pytorch는 python환경을 기반으로 제공되는 Deep learning research platform이다. Pytorch는 Deep learning에 필수적인 함수들 말고도 Deep learning에 도움이 되는 다양한 모듈들을 지원한다. 가장 대표적으로 Pytorch는 Autograd를 지원하는데, 이는 Tensor의 자동미분(ex. Backpropagation)
+Pytorch는 python환경을 기반으로 제공되는 deep learning research platform이다. Pytorch는 deep learning에 필수적인 함수들 말고도 deep learning에 도움이 되는 다양한 모듈들을 지원한다. 기본적으로, 여러 loss Function과 optimizer가 제공되며, 이들은 autograd (ex.back propagation)을 지원한다. 또한 전용 dataset class를 이용하면, num_workers prameter을 수정하여 load시 cpu 사용량을 지정하여 불러올 수 있다. Pytorch optimizer와 loss function, activation function 및 지원되는 다양한 모듈들은 아래의 pytorch 공식 홈페이지를 참고하라.
 
-추가 정리 예정
+### Optimizers in pytorch
+https://pytorch.org/docs/stable/optim.html
+
+### Loss function and other usefull utilities in pytorch
+https://pytorch.org/docs/stable/nn.html
 
 ## 3.Regression and Classification
 
+
 ## 4.Advanced CNN
-
-
