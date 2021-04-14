@@ -26,7 +26,7 @@ https://pytorch.org/docs/stable/nn.html
 <img src="./img/sigmoid_plot.jpg" width="50%">
 
 ## 4.Advanced CNN
-Computer vision 영역의 deeplearning에서 가장 대표적으로 쓰이는 네트워크 구조는 CNN이다. 이러한 CNN구조의 성능은 깊이가 깊어질수록 지속적으로 높아져왔다. 그러나 단순히 너무 깊은 네트워크를 설계할경우 쓸모 없는 값에도 과하게 overfitted되거나, gradient vanishing/exploding의 문제가 발생하여 성능이 더 높아지지 않았다. 이러한 문제점을 해결한 아이디어가 바로 ResNet구조이다. ResNet구조는 입력되는 값을 맨 마지막단에 FC(Fooly Connected) layer로 합쳐주면서, 네트워크가 residual을 학습하도록 만들었고 이를 통해 매우 높은 성능향상을 가져왔다.
+Computer vision 영역의 deeplearning에서 가장 대표적으로 쓰이는 네트워크 구조는 CNN이다. 이러한 CNN구조의 성능은 깊이가 깊어질수록 지속적으로 높아져왔다. 그러나 단순히 너무 깊은 네트워크를 설계할경우 쓸모 없는 값에도 과하게 overfitted되거나, gradient vanishing/exploding의 문제가 발생하여 성능이 더 높아지지 않았다. 이러한 문제점을 해결한 아이디어가 바로 ResNet구조이다. ResNet구조는 입력되는 값을 맨 마지막단에 FC(Fully Connected) layer로 합쳐주면서, 네트워크가 residual을 학습하도록 만들었고 이를 통해 매우 높은 성능향상을 가져왔다.
 
 ### ResNet
 <img src="./img/resnet.png" width="100%">
